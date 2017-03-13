@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{de1dadcb-4195-4fcf-96b7-eb30a30e9479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\API">
+      <UniqueIdentifier>{192107c1-5876-4728-a809-e90ef88c8873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\DXGraphic">
+      <UniqueIdentifier>{06234ca6-0cb7-4b20-9d95-6c9b17529551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameBase">
+      <UniqueIdentifier>{658d5f7e-42fc-4a6b-b148-fc643623064c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\System">
+      <UniqueIdentifier>{afac6a64-865e-4da5-8a61-e3d829d34c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject">
+      <UniqueIdentifier>{4dbc7812-e084-46d8-acc1-426070d890e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component">
+      <UniqueIdentifier>{48416391-38fb-45fb-bc48-c49a88e67b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject\3DObject">
+      <UniqueIdentifier>{d16eaad8-c895-4c17-b5d9-4a43a7d4a7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject\2DObject">
+      <UniqueIdentifier>{26cc116f-2a36-45e1-abfb-7ba8666898e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{50a0df40-93fe-41ad-bf59-67ac333dcb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{b7f0b427-9fb8-498d-a94e-b5de4589bc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObaject">
+      <UniqueIdentifier>{920e1188-e509-4579-b1e9-7f19476167be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject\Object">
+      <UniqueIdentifier>{7d3d3a46-8d96-451f-9746-03bbec939b85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Collider\BoxCollider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider\ColliderBase.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\API\Window.cpp">
+      <Filter>Framework\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Component\AnimationController.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Component\Hierarchy.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Component\Transform.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\DXGraphic\ModelManager.cpp">
+      <Filter>Framework\DXGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\DXGraphic\TextureManager.cpp">
+      <Filter>Framework\DXGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameBase\GameBase.cpp">
+      <Filter>Framework\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameBase\SceneManager.cpp">
+      <Filter>Framework\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameBase\SceneManagerThread.cpp">
+      <Filter>Framework\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\ObjectBase.cpp">
+      <Filter>Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\ObjectManager.cpp">
+      <Filter>Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\Object\CameraBase.cpp">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\Object\LightBase.cpp">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\Object\Particle.cpp">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\Object\SkyDome.cpp">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\3DObjectBase\3DObjectBase.cpp">
+      <Filter>Framework\GameObject\3DObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameObject\3DObjectBase\ModelObject.cpp">
+      <Filter>Framework\GameObject\3DObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\System\DebugPrint.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\System\Device.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\System\InputManager.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Collider\BoxCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider\ColliderBase.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\API\Window.h">
+      <Filter>Framework\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Component\AnimationController.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Component\Hierarchy.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Component\Transform.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\DXGraphic\ModelManager.h">
+      <Filter>Framework\DXGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\DXGraphic\TextureManager.h">
+      <Filter>Framework\DXGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameBase\GameBase.h">
+      <Filter>Framework\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameBase\SceneManager.h">
+      <Filter>Framework\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameBase\SceneManagerThread.h">
+      <Filter>Framework\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\ObjectBase.h">
+      <Filter>Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\ObjectManager.h">
+      <Filter>Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\Object\CameraBase.h">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\Object\LightBase.h">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\Object\Particle.h">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\Object\SkyDome.h">
+      <Filter>Framework\GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\3DObjectBase\3DObjectBase.h">
+      <Filter>Framework\GameObject\3DObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameObject\3DObjectBase\ModelObject.h">
+      <Filter>Framework\GameObject\3DObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\CSmartPointer.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\DebugPrint.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\DebugWindow.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\Device.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\FPSManager.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\InputManager.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\System\MemoryLeakDebug.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

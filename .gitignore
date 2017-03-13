@@ -1,0 +1,9 @@
+/[Dd]ebug/
+/[Dd]irectXGame/Debug*
+/.vs/
+/Assets/AssetStoreTools*
+
+
+*.obj
+*.db
+*.opendb
